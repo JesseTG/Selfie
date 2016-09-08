@@ -14,9 +14,31 @@ header h2 {
 }
 
 #background {
-  z-index: 1;
+  background: url('img/bg.jpeg');
+  display: block;
+  position: relative;
+  width: auto;
+  height: 25vmax;
+  margin: 1em 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  max-width:1814px;
+  max-height:1019px;
 }
 
 #jesse {
-  z-index: 0;
+  display: block;
+  z-index: 5;
+  background: url('img/jesse.png');
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.5%;
+  bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  will-change: opacity;
 }
